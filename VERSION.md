@@ -1,3 +1,7 @@
+# v1.5.7
+
+2026-10-15: Added Patrick’s surname, Timm, to his About profile heading and portrait alternative text. Dave remains first. Existing profile wording, links, images, styling and behavior are preserved.
+
 # v1.5.6
 
 2026-10-15: Put Dave’s About profile before Patrick’s in the actual document order, so he appears first on desktop, mobile and for screen readers. About introduction and metadata now name Dave first. Profile wording, portraits, links, styling and interaction code are preserved. Previous About source and snapshots remain available.

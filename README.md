@@ -1,4 +1,8 @@
-# Super Websites v1.5.6
+# Super Websites v1.5.7
+
+## Profile name — v1.5.7
+
+Patrick’s profile heading and portrait alternative text now use Patrick Timm. Current About source and builder/build-test scripts are v1.5.7; existing styles/checker remain v1.5.5.
 
 ## Profile order — v1.5.6
 
