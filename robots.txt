@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Preview pages carry noindex; allow crawling so that rule can be read.

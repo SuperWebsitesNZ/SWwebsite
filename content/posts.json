@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "small-website-big-job",
+    "title": "A small website can do a big job",
+    "description": "Clear content, a clear next step and simple ownership: what a small business website needs to do.",
+    "date": "2026-10-15",
+    "author": "Super Websites",
+    "published": true,
+    "sampleArticle": true,
+    "bodyFile": "src/posts/small-website-big-job-v1.5.1.html"
+  },
+  {
+    "title": "What should go on your homepage?",
+    "description": "Help visitors understand your business and find their next step.",
+    "published": false,
+    "mockTitle": true
+  },
+  {
+    "title": "Your domain, your website, your keys",
+    "description": "A simple look at website ownership and staying in control.",
+    "published": false,
+    "mockTitle": true
+  },
+  {
+    "title": "Five small fixes that help customers contact you",
+    "description": "Make it easier for people to take the next step with your business.",
+    "published": false,
+    "mockTitle": true
+  }
+]
