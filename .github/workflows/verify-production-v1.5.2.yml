@@ -1,0 +1,37 @@
+# Super Websites production validation v1.5.2
+# Automatically verifies the production build used by Cloudflare Pages.
+name: Production build checks v1.5.2
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-production:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate production files
+        run: npm run build:production
+      - name: Check site references and output
+        run: npm run check
+      - name: Run site tests
+        run: npm test
+      - name: Confirm domain, draft recipient, and indexing
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -Fq 'https://superwebsites.co.nz/' site-dist/index.html
+          grep -Fq 'superwebsites111@gmail.com' site-dist/index.html
+          grep -Fq 'name="robots" content="index,follow"' site-dist/index.html
+          grep -Fq 'https://superwebsites.co.nz/' site-dist/sitemap.xml
+          test ! -d site-dist/versions
