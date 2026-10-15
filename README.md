@@ -1,4 +1,16 @@
-# Super Websites v1.5.2
+# Super Websites v1.5.3
+
+## Production pricing update — v1.5.3 (15 October 2026)
+
+Patrick explicitly instructed these prices to be published in **SuperWebsitesNZ/SWwebsite**. Production target: **https://superwebsites.co.nz/**. Current deployment uses Cloudflare Pages, `main`, `npm run build:production`, output `site-dist`; the existing verification workflow runs the current package scripts. Email-draft enquiries still use the configured temporary address. SWdemo1/SWdemo2 are separate and unchanged.
+
+- One-page website **NZ$1,500 + GST**, with design, copywriting from basic customer information, mobile responsiveness, basic SEO and a standard contact form.
+- Up-to-five-page website **NZ$2,950 + GST**, with everything above, copywriting for all five pages, Google Business Profile setup and a photo gallery.
+- All eight supplied add-ons are displayed with exact prices, From qualifiers and the 30-minute quick-update limit. Custom functionality is fixed quoted. Domain renewals and any paid third-party services remain separate.
+- Current editable source: `src/home.html`; styles: `styles-v1.5.3.css`; builder/check/build tests: `scripts/*-v1.5.3.mjs`. Existing interaction JS remains v1.5.1.
+- Build/check: `npm run build:production`, `npm run check`, `npm test`. Production publishes generated `site-dist/`; root HTML remains a generated preview copy for repository review.
+
+Task branch: `codex/v1.5.3-pricing`. Validation covers generated production prices/inclusions, all eight add-on price pairs, FAQ/chart consistency, markup/assets/metadata, production build and existing mock enquiry/animation/build tests. No real enquiry was sent. Older source/snapshots and domain/email settings are preserved. Historical handovers below may describe earlier prices or deployment status.
 
 ## SWwebsite deployment configuration — v1.5.2 (15 October 2026)
 
