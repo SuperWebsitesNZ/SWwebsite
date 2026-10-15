@@ -1,7 +1,7 @@
-# Super Websites HTTP crawler diagnostics v1.0.0
+# Super Websites HTTP crawler diagnostics v1.0.1
 # Safe read-only network checks from a GitHub-hosted runner.
 # This simulates User-Agent headers, NOT a request from Meta's own IP addresses.
-name: HTTP crawler diagnostics v1.0.0
+name: HTTP crawler diagnostics v1.0.1
 
 on:
   push:
@@ -21,6 +21,9 @@ jobs:
         run: |
           set -u
           urls=(
+            "https://www.superwebsites.co.nz/"
+            "https://www.superwebsites.co.nz/blog/?test=1"
+            "http://www.superwebsites.co.nz/"
             "https://superwebsites.co.nz/"
             "https://superwebsites.co.nz/robots.txt"
             "https://swwebsite.pages.dev/"
