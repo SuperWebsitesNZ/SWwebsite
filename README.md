@@ -1,4 +1,8 @@
-# Super Websites v1.5.7
+# Super Websites v1.5.8
+
+## Back to top — v1.5.8
+
+A small fixed bottom-right arrow appears after 500px of scrolling on all active pages. Source: `back-to-top-v1.5.8.js`, `src/layout.html` and `styles-v1.5.8.css`. The control respects reduced-motion and Pause motion, device safe areas, keyboard focus and modal/menu overlays. Build/check/build-test entry points are v1.5.8; the existing app/enquiry/chart modules remain unchanged.
 
 ## Profile name — v1.5.7
 
