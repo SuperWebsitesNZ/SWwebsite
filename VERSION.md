@@ -1,3 +1,7 @@
+# v1.5.8
+
+2026-10-15: Added a compact yellow circular back-to-top arrow in the bottom-right corner of every active page. Appears after 500px of scrolling and returns to the actual page top. The native labelled button is keyboard accessible, uses smooth scrolling, respects reduced-motion and Pause motion, and restores keyboard focus to the home/brand link when it hides. It stays clear of device safe areas and is hidden behind open dialogs/mobile navigation. New shared back-to-top JS is isolated from existing interaction code. Existing page content, pricing, About profiles, assets, forms and animation code are preserved. Added v1.5.8 build/check/test/style files and retained earlier releases.
+
 # v1.5.7
 
 2026-10-15: Added Patrick’s surname, Timm, to his About profile heading and portrait alternative text. Dave remains first. Existing profile wording, links, images, styling and behavior are preserved.
