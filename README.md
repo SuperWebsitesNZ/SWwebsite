@@ -1,5 +1,14 @@
 # Super Websites v1.5.2
 
+## SWwebsite deployment configuration — v1.5.2 (15 October 2026)
+
+- Official production domain configured in `site.config.json`: **https://superwebsites.co.nz/** (canonical apex hostname).
+- The original `SWdemo1` preview, its noindex setting, and `previewUrl` remain unchanged.
+- Cloudflare Pages should connect **SuperWebsitesNZ/SWwebsite**, production branch `main`, build command `npm run build:production`, build output directory `site-dist`, Node.js 20+.
+- **Launch blocker:** `contactEmail` and `formEndpoint` are intentionally unset; the production builder refuses to deploy without a verified public enquiry method. Do not invent an address or submit form data to an unconfigured endpoint.
+- In Cloudflare Pages > Custom domains, add `superwebsites.co.nz` after a successful production deploy; also configure `www.superwebsites.co.nz` to redirect to the apex. DNS records and mail records must be reviewed before changing nameservers.
+- This config-only change retains website version **v1.5.2**. No production deployment or DNS change has been made.
+
 Launch preparation for **SuperWebsitesNZ/SWdemo1**. The current GitHub Pages site remains a noindex review preview while production is built separately with the final domain and enquiry details. SWdemo2 and Think Blue Tree were not changed.
 
 - Latest preview: https://superwebsitesnz.github.io/SWdemo1/
