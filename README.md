@@ -1,4 +1,11 @@
-# Super Websites v1.5.4
+# Super Websites v1.5.5
+
+## About page — v1.5.5 (15 October 2026)
+
+- Published `/about/` with shared navigation, canonical metadata and sitemap inclusion. Source: `src/pages/about-v1.5.5.html`; publication: `content/pages.json` (`layout: "full"` allows a page to supply its own semantic sections and heading).
+- Both supplied portraits are compressed WebP files. CSS makes both circular without altering the original photographs. The page links both founders’ outside work and retains the Super Websites visual identity.
+- Dave’s background sources, checked 15 October 2026: <https://fancast.co.nz/about> and <https://www.cameracademy.com/instructors>. His bio is paraphrased; review counts, awards, client results and unsupported personal claims are not reused. Patrick’s role and search-and-rescue information were supplied directly for this page.
+- Current builder/check/build tests and styles: v1.5.5. Interaction JS remains v1.5.1. `npm run build:production`, `npm run check`, `npm test` validate the current site. Previous versioned files and diagnostics are preserved.
 
 ## Sharing assets — v1.5.4 (15 October 2026)
 

@@ -2,10 +2,11 @@
   {
     "slug": "about",
     "navLabel": "About",
-    "title": "About Super Websites",
-    "description": "Meet the people behind Super Websites.",
-    "published": false,
-    "bodyFile": ""
+    "title": "Meet Patrick & Dave | Super Websites",
+    "description": "Meet Patrick and Dave, the Queenstown duo behind Super Websites. Different backgrounds, one mission: useful business websites with ownership built in.",
+    "published": true,
+    "bodyFile": "src/pages/about-v1.5.5.html",
+    "layout": "full"
   },
   {
     "slug": "blog",
