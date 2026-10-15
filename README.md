@@ -5,9 +5,9 @@
 - Official production domain configured in `site.config.json`: **https://superwebsites.co.nz/** (canonical apex hostname).
 - The original `SWdemo1` preview, its noindex setting, and `previewUrl` remain unchanged.
 - Cloudflare Pages should connect **SuperWebsitesNZ/SWwebsite**, production branch `main`, build command `npm run build:production`, build output directory `site-dist`, Node.js 20+.
-- **Launch blocker:** `contactEmail` and `formEndpoint` are intentionally unset; the production builder refuses to deploy without a verified public enquiry method. Do not invent an address or submit form data to an unconfigured endpoint.
+- **Production enquiry setup:** `contactEmail` is set to **superwebsites111@gmail.com** as a temporary public contact address; `formEndpoint` is blank. The form opens a prefilled `mailto:` draft for the visitor to send themselves. No automatic submission or server-side form delivery is configured.
 - In Cloudflare Pages > Custom domains, add `superwebsites.co.nz` after a successful production deploy; also configure `www.superwebsites.co.nz` to redirect to the apex. DNS records and mail records must be reviewed before changing nameservers.
-- This config-only change retains website version **v1.5.2**. No production deployment or DNS change has been made.
+- Domain and temporary enquiry-email configuration retain website version **v1.5.2**. As of this handover, the Cloudflare Pages production deployment and custom domain are not yet connected; no DNS change has been made.
 
 Launch preparation for **SuperWebsitesNZ/SWdemo1**. The current GitHub Pages site remains a noindex review preview while production is built separately with the final domain and enquiry details. SWdemo2 and Think Blue Tree were not changed.
 
@@ -17,7 +17,7 @@ Launch preparation for **SuperWebsitesNZ/SWdemo1**. The current GitHub Pages sit
 - Static HTML/CSS/JavaScript with a dependency-free Node builder; no browser framework or npm dependencies.
 - Shared layouts and an unpublished About entry and a visible Blog prepare for future pages. No training offers are promoted. The Blog includes one short article and three clearly labelled preview-only sample titles.
 - Responsive WebP artwork, subset self-hosted Barlow fonts, local icons, social metadata, custom 404 and separate preview/production SEO rules.
-- Configurable enquiry endpoint or email-draft fallback. Neither receiver is configured yet; the preview only prepares/copies a brief.
+- Production enquiry email-draft fallback configured to **superwebsites111@gmail.com**. The GitHub Pages demo remains on its separate preview settings.
 - Current pricing and five-year illustrative cost comparison are preserved. The unfinished third portfolio tile was removed.
 
 ## Source and commands
