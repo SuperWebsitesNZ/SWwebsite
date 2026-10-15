@@ -1,4 +1,8 @@
-# Super Websites v1.5.5
+# Super Websites v1.5.6
+
+## Profile order — v1.5.6
+
+Dave now appears first on the About page in document order, including mobile and assistive technology. Current About source and builder/build-test scripts are v1.5.6; existing v1.5.5 styles and checker are reused unchanged.
 
 ## About page — v1.5.5 (15 October 2026)
 

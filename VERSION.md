@@ -1,3 +1,7 @@
+# v1.5.6
+
+2026-10-15: Put Dave’s About profile before Patrick’s in the actual document order, so he appears first on desktop, mobile and for screen readers. About introduction and metadata now name Dave first. Profile wording, portraits, links, styling and interaction code are preserved. Previous About source and snapshots remain available.
+
 # v1.5.5
 
 2026-10-15: Published the About page with Patrick and Dave’s supplied portraits, compressed as WebP while retaining the originals. Circular portrait framing is CSS, including Dave’s rectangular source. Added a purple/yellow people-behind-the-capes introduction, individual bios, a shared helping-people/website-ownership story, three service principles and working enquiry/package calls to action. Patrick’s copy uses the information he supplied in this request (behavioural consultancy and search and rescue). Dave’s factual background is paraphrased from FanCast Productions and CamerAcademy’s own About/instructor pages, linked from his profile. His bio covers video, live sports, storytelling and 15 years in education. Patrick’s separate work is linked as requested without importing its brand or assets. About is included in shared navigation, canonical metadata and the production sitemap. Added a reusable full-width content layout and v1.5.5 source/build/check/test/style files; preserved homepage content, pricing, enquiry and animation code, older versions and HTTP diagnostics.
