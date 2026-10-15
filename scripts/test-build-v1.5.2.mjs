@@ -22,7 +22,9 @@ try {
   assert.match(listing,/href="\.\.\/blog\/small-website-big-job\/"/);
   for(const card of listing.matchAll(/<article class="blog-card mock-post">([\s\S]*?)<\/article>/g))assert(!card[1].includes('<a '),'Mock titles must not be dead links');
   assert.match(read('site-dist-blog-preview/blog/small-website-big-job/index.html'),/Example article for this website preview/);
-  const unavailable=run('production','site-dist-gate');
+  // v1.5.2: Explicit negative fixture, independent of deployed domain/contact settings.
+  fs.writeFileSync(path.join(root,tempConfig),JSON.stringify({...config,siteUrl:'',contactEmail:'',formEndpoint:''}));
+  const unavailable=run('production','site-dist-gate',['--config',tempConfig]);
   assert.notEqual(unavailable.status,0,'Unconfigured production should refuse launch.');
   assert.match(unavailable.stderr,/Final domain/);
   fs.writeFileSync(path.join(root,tempConfig),JSON.stringify(fixture));
