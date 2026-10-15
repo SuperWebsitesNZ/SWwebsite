@@ -1,0 +1,49 @@
+# Super Websites HTTP crawler diagnostics v1.0.0
+# Safe read-only network checks from a GitHub-hosted runner.
+# This simulates User-Agent headers, NOT a request from Meta's own IP addresses.
+name: HTTP crawler diagnostics v1.0.0
+
+on:
+  push:
+    paths:
+      - '.github/workflows/http-diagnostics-v1.0.0.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compare HTTP responses from GitHub runner
+        shell: bash
+        run: |
+          set -u
+          urls=(
+            "https://superwebsites.co.nz/"
+            "https://superwebsites.co.nz/robots.txt"
+            "https://swwebsite.pages.dev/"
+            "https://superwebsitesnz.github.io/SWdemo1/"
+          )
+          agents=(
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0.0.0 Safari/537.36"
+            "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+            "meta-externalfetcher/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)"
+          )
+          names=("Browser" "FacebookSharing" "MetaFetcher")
+          for url in "${urls[@]}"; do
+            for i in "${!agents[@]}"; do
+              echo "::group::URL $url | UA ${names[$i]}"
+              curl --location --max-redirs 5 --connect-timeout 8 --max-time 20 --silent --show-error --dump-header /tmp/sw-headers --output /tmp/sw-body --user-agent "${agents[$i]}" --write-out 'STATUS=%{http_code} FINAL=%{url_effective} SIZE=%{size_download}\n' "$url" || true
+              grep -iE '^(HTTP/|cf-mitigated:|cf-ray:|server:|content-type:|location:|x-robots-tag:)' /tmp/sw-headers | tail -16 || true
+              if grep -qi 'content-type: text/html' /tmp/sw-headers; then
+                if grep -qi '<meta property="og:title"' /tmp/sw-body; then
+                  echo "OG_TITLE_PRESENT=yes"
+                else
+                  echo "OG_TITLE_PRESENT=no"
+                fi
+              fi
+              echo "::endgroup::"
+            done
+          done
