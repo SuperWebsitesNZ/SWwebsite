@@ -1,5 +1,5 @@
 {
-  "version": "1.5.3",
+  "version": "1.5.4",
   "name": "Super Websites",
   "siteUrl": "https://superwebsites.co.nz/",
   "previewUrl": "https://superwebsitesnz.github.io/SWdemo1/",
@@ -7,5 +7,5 @@
   "description": "Custom websites for small businesses, with a one-off build price and no required ongoing website subscription. Built by Patrick and Dave.",
   "contactEmail": "superwebsites111@gmail.com",
   "formEndpoint": "",
-  "socialImage": "assets/social-logo-v1.5.0.png"
+  "socialImage": "assets/social-wide-v1.0.jpg"
 }

@@ -1,4 +1,12 @@
-# Super Websites v1.5.3
+# Super Websites v1.5.4
+
+## Sharing assets — v1.5.4 (15 October 2026)
+
+- Shared source builder/check/build tests: `scripts/*-v1.5.4.mjs`. Styling remains `styles-v1.5.3.css`; interactions remain v1.5.1.
+- The supplied `assets/social-wide-v1.0.jpg` is the default Open Graph and Twitter/X card on all active pages. Each page keeps its own title, description and canonical URL. Declared image type and dimensions match the actual JPEG (1200×630).
+- Existing favicon and site logo are preserved. Added the pack’s solid Apple touch icon plus browser-shortcut manifest/icons. Manifest paths are relative for both the production root and preview subpath. This adds no service worker or offline behavior.
+- Alternate square/profile exports remain available in the supplied ZIP for manual social/profile uploads; duplicate full-size logo and PNG sharing exports are not added to page downloads.
+- Production still uses `npm run build:production` → `site-dist`. Run `npm run check` and `npm test` after building. Social platforms can cache previous previews; crawler access remains a separate hosting concern.
 
 ## Production pricing update — v1.5.3 (15 October 2026)
 
