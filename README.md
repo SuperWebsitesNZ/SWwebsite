@@ -1,4 +1,9 @@
-# Super Websites v1.5.8
+# Super Websites v1.5.9
+
+## Local SEO — v1.5.9
+
+Home title and meta description name Central Otago and New Zealand; the hero service line adds the service area. The footer shows email, phone and a service-area line from `site.config.json` (`contactPhone`, `contactPhoneDisplay`, `serviceArea`, `areaServed`), and Organization schema adds telephone, areaServed and an Otago/NZ address. Source: `scripts/build-site-v1.5.9.mjs`, `styles-v1.5.9.css`, `src/home.html`, `content/pages.json`. JS modules unchanged.
+
 
 ## Back to top — v1.5.8
 

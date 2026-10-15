@@ -12,7 +12,7 @@
     "slug": "blog",
     "navLabel": "Blog",
     "title": "Website Advice & Ideas | Super Websites",
-    "description": "Practical advice for small-business websites.",
+    "description": "Practical website advice for small businesses in Central Otago and across New Zealand: what to put on your homepage, owning your domain and getting more enquiries.",
     "published": true,
     "bodyFile": "src/pages/blog-v1.5.1.html",
     "heading": "Small site.\nBig ideas."
