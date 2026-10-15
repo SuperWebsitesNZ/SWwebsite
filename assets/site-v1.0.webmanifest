@@ -1,0 +1,29 @@
+{
+  "name": "Super Websites",
+  "short_name": "Super Websites",
+  "start_url": "../",
+  "display": "browser",
+  "background_color": "#FAF8FD",
+  "theme_color": "#7B3FE4",
+  "icons": [
+    {
+      "src": "icon-192-v1.0.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512-v1.0.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "maskable-512-v1.0.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "scope": "../"
+}
