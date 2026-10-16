@@ -16,5 +16,77 @@
     "published": true,
     "bodyFile": "src/pages/blog-v1.5.1.html",
     "heading": "Small site.\nBig ideas."
+  },
+  {
+    "slug": "website-cost-nz",
+    "navLabel": "Website costs",
+    "footerLabel": "Website costs in NZ",
+    "title": "Website Cost NZ: 2026 Price Guide | Super Websites",
+    "description": "What a small business website costs in New Zealand in 2026: typical build prices, the ongoing costs people miss, and our fixed prices from NZ$1,500 + GST.",
+    "heading": "How much does a website cost in NZ?",
+    "published": true,
+    "nav": false,
+    "footer": true,
+    "bodyFile": "src/pages/website-cost-nz-v1.6.0.html"
+  },
+  {
+    "slug": "website-design-central-otago",
+    "navLabel": "Central Otago",
+    "footerLabel": "Websites in Central Otago",
+    "title": "Website Design Central Otago | Super Websites",
+    "description": "Small business websites from a local Central Otago team. One price, copy written for you and no monthly fees. Cromwell, Wānaka, Queenstown and beyond.",
+    "heading": "Websites for Central Otago businesses.",
+    "published": true,
+    "nav": false,
+    "footer": true,
+    "bodyFile": "src/pages/website-design-central-otago-v1.6.0.html"
+  },
+  {
+    "slug": "website-design-queenstown",
+    "navLabel": "Queenstown",
+    "footerLabel": "Websites in Queenstown",
+    "title": "Website Design Queenstown | Super Websites",
+    "description": "Websites for Queenstown businesses, built by two Queenstown business owners. Phone-first, bookings ready, copy written for you, no monthly fees.",
+    "heading": "Websites for Queenstown businesses.",
+    "published": true,
+    "nav": false,
+    "footer": true,
+    "bodyFile": "src/pages/website-design-queenstown-v1.6.0.html"
+  },
+  {
+    "slug": "websites-with-no-monthly-fees",
+    "navLabel": "No monthly fees",
+    "footerLabel": "No monthly fees, explained",
+    "title": "Website With No Monthly Fees NZ | Super Websites",
+    "description": "How a small business website can run with no monthly fee: pay once, hosting free in your name, your domain the only ongoing cost. And when monthly makes sense.",
+    "heading": "A website with no monthly fees.",
+    "published": true,
+    "nav": false,
+    "footer": true,
+    "bodyFile": "src/pages/websites-with-no-monthly-fees-v1.6.0.html"
+  },
+  {
+    "slug": "our-work",
+    "navLabel": "Case studies",
+    "footerLabel": "Case studies",
+    "title": "Our Work: FanCast & CamerAcademy | Super Websites",
+    "description": "Case studies of two Queenstown business websites: FanCast Productions video production and CamerAcademy camera classes. What each site does and why.",
+    "heading": "Real sites. Real businesses.",
+    "published": true,
+    "nav": false,
+    "footer": true,
+    "bodyFile": "src/pages/our-work-v1.6.0.html"
+  },
+  {
+    "slug": "switch-from-wix-squarespace",
+    "navLabel": "Switch from Wix",
+    "footerLabel": "Switching from Wix or Squarespace",
+    "title": "Switch From Wix or Squarespace | Super Websites",
+    "description": "Leaving Wix or Squarespace? How we move NZ small businesses to a website they own: same domain, email kept working, copy included, no monthly fees.",
+    "heading": "Leaving Wix or Squarespace?",
+    "published": true,
+    "nav": false,
+    "footer": true,
+    "bodyFile": "src/pages/switch-from-wix-squarespace-v1.6.0.html"
   }
 ]

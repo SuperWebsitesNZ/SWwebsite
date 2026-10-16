@@ -3,10 +3,10 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: DENY
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-Un/VN218k1xVczbjNLYi6VT1Yo09SrZwhybIspeznkI=' 'sha256-lIjLDBleK5RmU1m6oZmq1joASaGWiEyqul2VxTyYh5Y=' 'sha256-ucrkrv+WUumhkuO39FURNvo1nvITCMFi1JLUsPZ3UMA=' 'sha256-6V8dQ8OWA3JwCWyxzaVeUP0VpMw+8VfKqcCWhvy4FOY=' 'sha256-40EziL0P8ujMSJzeaFGQSYLNAhHTdJ/SPEYbyfGtIcQ=' 'sha256-gJY6aSHWC75pABtebFMQ2ZJkVurKR7JwrgMm6VRtNoo=' 'sha256-SHejqioccv098N8AJpbEk7A2UCGNQWWTTJzFBk5Pl3I=' 'sha256-7OTqkkEL1ijog5JKV91l8Ve6PQK/ayw+6ZGu0bYtKvY='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' ; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-Un/VN218k1xVczbjNLYi6VT1Yo09SrZwhybIspeznkI=' 'sha256-lIjLDBleK5RmU1m6oZmq1joASaGWiEyqul2VxTyYh5Y=' 'sha256-7wq4KanGRR3m0slkju09/CHwtD6tCPsk0LMzHzqSZAM=' 'sha256-6V8dQ8OWA3JwCWyxzaVeUP0VpMw+8VfKqcCWhvy4FOY=' 'sha256-40EziL0P8ujMSJzeaFGQSYLNAhHTdJ/SPEYbyfGtIcQ=' 'sha256-gJY6aSHWC75pABtebFMQ2ZJkVurKR7JwrgMm6VRtNoo=' 'sha256-YiMXWMd+OU0hfGhZkGz+900Yo2bii1wzHKG2KEnDfVE=' 'sha256-TCHAbwarHb7mPuyAw7PoV5COqNqmCvFJ8UdvDdSHq5o=' 'sha256-IHTBcl5CfoVvdPA7h+5ApTShrO7dTuIAtYAfSfM0XoA=' 'sha256-x2k4bdYLMlgfQkVxfh1/eevbn/hWhCUk5gKfh/3L3Nw=' 'sha256-bpcrkViy6RW3Vu0RUf7YVIE3QUF2excyG7otvN9bh/g=' 'sha256-9W8lCYXCtwVjLinT4SJ3crZ1QjITMfgWQuUcGuYwjeE=' 'sha256-SHejqioccv098N8AJpbEk7A2UCGNQWWTTJzFBk5Pl3I=' 'sha256-7OTqkkEL1ijog5JKV91l8Ve6PQK/ayw+6ZGu0bYtKvY='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' ; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
-/styles-v1.5.9.css
+/styles-v1.6.0.css
   Cache-Control: public, max-age=31536000, immutable
 /app-v1.5.1.js
   Cache-Control: public, max-age=31536000, immutable

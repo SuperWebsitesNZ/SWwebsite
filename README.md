@@ -1,4 +1,9 @@
-# Super Websites v1.5.9
+# Super Websites v1.6.0
+
+## SEO pages — v1.6.0
+
+Six guide pages live in `src/pages/*-v1.6.0.html` and `content/pages.json`. `nav: false` keeps a page out of the header; `footer: true` (+ `footerLabel`) lists it in the footer Guides row. Build/check/build-test entry points are v1.6.0; JS modules unchanged.
+
 
 ## Local SEO — v1.5.9
 
