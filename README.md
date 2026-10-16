@@ -1,4 +1,9 @@
-# Super Websites v1.6.0
+# Super Websites v1.6.1
+
+## Analytics, contrast and image sizes — v1.6.1
+
+CSP allows Cloudflare Web Analytics; "+ GST" on the featured price card is white; 600px hero variants and a 100px shield cut phone image weight. Build/check/build-test entry points are v1.6.1.
+
 
 ## SEO pages — v1.6.0
 
