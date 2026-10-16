@@ -1,4 +1,7 @@
-# Super Websites v1.6.1
+# Super Websites v1.6.2
+
+v1.6.2: phone hero sizes hint 82vw so the 600px variants are used. Build/check/build-test entry points are v1.6.2.
+
 
 ## Analytics, contrast and image sizes — v1.6.1
 

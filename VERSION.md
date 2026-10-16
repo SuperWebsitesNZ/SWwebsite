@@ -1,3 +1,7 @@
+# v1.6.2
+
+2026-10-17: Hero sizes hint 84vw to 82vw on phones. At 412px and 1.75x density, 84vw asked for 605px, just over the new 600px variant, so phones still downloaded the 768px heroes; 82vw (measured display is about 83%) selects the 600px files. styles-v1.6.2.css is identical to v1.6.1 apart from its header; v1.6.2 build/check/build-test scripts. Note: the Cloudflare Web Analytics script now loads, but its beacon POST to cloudflareinsights.com/cdn-cgi/rum returns 503, which needs the Web Analytics site checked for superwebsites.co.nz in the Cloudflare dashboard.
+
 # v1.6.1
 
 2026-10-17: Fixes from Dave's 17 Oct audit and Lighthouse run (mobile 96, SEO 100). Cloudflare Web Analytics was injected by Pages but blocked by the CSP, so it recorded nothing; the CSP now allows https://static.cloudflareinsights.com (script) and https://cloudflareinsights.com (connect). The "+ GST" on the purple five-page card is white instead of yellow (contrast 3.95:1 to about 5.3:1). Phones now get new 600px hero variants (hero1/hero2-600-v1.6.1.webp, about 70 KB instead of about 140 KB) via a 600w srcset entry and sizes matching the measured display width (84vw up to 600px), and the 49px ownership shield uses shield-100-v1.6.1.webp (5 KB instead of 52 KB). New styles-v1.6.1.css and v1.6.1 build/check/build-test scripts; JS unchanged. Original assets, prior snapshots and code unchanged.
