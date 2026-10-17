@@ -1,6 +1,10 @@
-# Super Websites v1.6.3
+# Super Websites v1.6.4
 
-v1.6.3: footer social profile links and Organization sameAs. Build/check/build-test entry points are v1.6.3.
+v1.6.4: home H1 carries the service line, About location now Central Otago, blog meta and post title fixes. Build/check/build-test entry points are v1.6.4.
+
+## Social profiles — v1.6.3
+
+Footer social profile links and Organization sameAs.
 
 ## Analytics, contrast and image sizes — v1.6.1
 

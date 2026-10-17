@@ -1,3 +1,7 @@
+# v1.6.4
+
+2026-10-17: Fixes from Dave's evening SEO re-audit. Home H1 now contains the service line ("Website design for small businesses in Central Otago and across New Zealand.") as a span styled exactly like the old paragraph, so the main heading carries the service and place with no visual change. About says "Two Central Otago business owners" and its meta description "the Central Otago duo" (was Queenstown), matching the home page and title; new src/pages/about-v1.6.4.html. Blog listing meta description trimmed from 163 to 144 characters. The blog post keeps its slug but is retitled "What a small business website needs to do" with a 150-character description (was 97). New styles-v1.6.4.css (v1.6.3 plus the H1 service-line rule) and v1.6.4 build/check/build-test scripts; JS unchanged. Prior snapshots, code and assets are unchanged.
+
 # v1.6.3
 
 2026-10-17: Super Websites social profiles. New site.config.json field `socialProfiles` (name + https URL, validated by the build): Facebook, Instagram, LinkedIn and YouTube. They show as a link row in the footer under the contact details ({{FOOTER_SOCIAL}} in src/partials/footer.html, rel="me", new tab) and as Organization `sameAs` in the JSON-LD, so Google can tie the profiles to the site. New styles-v1.6.3.css (v1.6.2 plus .footer-social) and v1.6.3 build/check/build-test scripts; JS unchanged. Prior snapshots, code and assets are unchanged.
