@@ -1,6 +1,10 @@
-# Super Websites v1.6.7
+# Super Websites v1.6.8
 
-v1.6.7: home "Stop paying rent" lede reworded. Build/check/build-test entry points are v1.6.7.
+v1.6.8: `showContactEmail: false` hides the enquiry email from the footer and schema; the email-draft form still uses `contactEmail`. Build/check/build-test entry points are v1.6.8.
+
+## Copy — v1.6.7
+
+Home "Stop paying rent" lede reworded.
 
 ## Social logos — v1.6.6
 

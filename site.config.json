@@ -1,11 +1,12 @@
 {
-  "version": "1.6.7",
+  "version": "1.6.8",
   "name": "Super Websites",
   "siteUrl": "https://superwebsites.co.nz/",
   "previewUrl": "https://superwebsitesnz.github.io/SWdemo1/",
   "title": "Website Design Central Otago & NZ | Super Websites",
   "description": "Small business websites from Central Otago, built for clients across New Zealand. One price, no monthly fees, and we write the words. From NZ$1,500 + GST.",
   "contactEmail": "superwebsites111@gmail.com",
+  "showContactEmail": false,
   "contactPhone": "+64 27 230 7050",
   "contactPhoneDisplay": "027 230 7050",
   "serviceArea": "Based in Central Otago. Building websites for Queenstown, Cromwell, Wānaka and businesses across New Zealand.",

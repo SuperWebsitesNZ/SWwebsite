@@ -1,3 +1,7 @@
+# v1.6.8
+
+2026-10-17: Gmail address hidden from the public site (Dave, option 1). New site.config.json field `showContactEmail` (default true); set to false, the builder leaves the email out of the footer and the Organization schema. `contactEmail` stays configured because the enquiry form's "Open email draft" sends to it and production requires an email or a form endpoint, so the address is only seen by someone who opens the draft. The footer now shows the phone and service area. Build test covers hidden and shown modes. New styles-v1.6.8.css (identical to v1.6.6 apart from its header) and v1.6.8 build/check/build-test scripts; JS unchanged. Prior snapshots, code and assets are unchanged. Longer term: a domain address (e.g. hello@superwebsites.co.nz via Cloudflare Email Routing) can replace the Gmail.
+
 # v1.6.7
 
 2026-10-17: Home "Stop paying rent" lede reworded at Dave's request. "We do it the other way round." was unclear; it now reads "Stop paying and your site can go offline. Ours stay online with no plan at all, because the hosting is in your name." New styles-v1.6.7.css (identical to v1.6.6 apart from its header) and v1.6.7 build/check/build-test scripts; JS unchanged. Prior snapshots, code and assets are unchanged.
