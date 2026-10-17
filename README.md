@@ -1,7 +1,6 @@
-# Super Websites v1.6.2
+# Super Websites v1.6.3
 
-v1.6.2: phone hero sizes hint 82vw so the 600px variants are used. Build/check/build-test entry points are v1.6.2.
-
+v1.6.3: footer social profile links and Organization sameAs. Build/check/build-test entry points are v1.6.3.
 
 ## Analytics, contrast and image sizes — v1.6.1
 

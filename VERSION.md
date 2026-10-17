@@ -1,3 +1,7 @@
+# v1.6.3
+
+2026-10-17: Super Websites social profiles. New site.config.json field `socialProfiles` (name + https URL, validated by the build): Facebook, Instagram, LinkedIn and YouTube. They show as a link row in the footer under the contact details ({{FOOTER_SOCIAL}} in src/partials/footer.html, rel="me", new tab) and as Organization `sameAs` in the JSON-LD, so Google can tie the profiles to the site. New styles-v1.6.3.css (v1.6.2 plus .footer-social) and v1.6.3 build/check/build-test scripts; JS unchanged. Prior snapshots, code and assets are unchanged.
+
 # v1.6.2
 
 2026-10-17: Hero sizes hint 84vw to 82vw on phones. At 412px and 1.75x density, 84vw asked for 605px, just over the new 600px variant, so phones still downloaded the 768px heroes; 82vw (measured display is about 83%) selects the 600px files. styles-v1.6.2.css is identical to v1.6.1 apart from its header; v1.6.2 build/check/build-test scripts. Note: the Cloudflare Web Analytics script now loads, but its beacon POST to cloudflareinsights.com/cdn-cgi/rum returns 503, which needs the Web Analytics site checked for superwebsites.co.nz in the Cloudflare dashboard.
