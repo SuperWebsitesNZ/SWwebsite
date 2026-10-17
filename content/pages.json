@@ -27,7 +27,7 @@
     "published": true,
     "nav": false,
     "footer": true,
-    "bodyFile": "src/pages/website-cost-nz-v1.6.0.html"
+    "bodyFile": "src/pages/website-cost-nz-v1.6.5.html"
   },
   {
     "slug": "website-design-central-otago",
@@ -39,7 +39,7 @@
     "published": true,
     "nav": false,
     "footer": true,
-    "bodyFile": "src/pages/website-design-central-otago-v1.6.0.html"
+    "bodyFile": "src/pages/website-design-central-otago-v1.6.5.html"
   },
   {
     "slug": "website-design-queenstown",
@@ -88,5 +88,17 @@
     "nav": false,
     "footer": true,
     "bodyFile": "src/pages/switch-from-wix-squarespace-v1.6.0.html"
+  },
+  {
+    "slug": "seo-and-ai-search",
+    "navLabel": "SEO and AI search",
+    "footerLabel": "SEO and AI search",
+    "title": "SEO & AI Search for NZ Small Business Sites | Super Websites",
+    "description": "What SEO and AI search (GEO) setup is included in every Super Websites build: fast pages, Google-ready titles, schema, a sitemap and Search Console.",
+    "heading": "Built for Google and AI search.",
+    "published": true,
+    "nav": false,
+    "footer": true,
+    "bodyFile": "src/pages/seo-and-ai-search-v1.6.5.html"
   }
 ]

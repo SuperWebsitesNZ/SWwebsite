@@ -1,6 +1,10 @@
-# Super Websites v1.6.4
+# Super Websites v1.6.5
 
-v1.6.4: home H1 carries the service line, About location now Central Otago, blog meta and post title fixes. Build/check/build-test entry points are v1.6.4.
+v1.6.5: SEO and AI search messaging (home "Built to be found" section, FAQ, /seo-and-ai-search/ guide, "Basic SEO" renamed). Build/check/build-test entry points are v1.6.5.
+
+## Search fixes — v1.6.4
+
+Home H1 carries the service line, About location now Central Otago, blog meta and post title fixes.
 
 ## Social profiles — v1.6.3
 
