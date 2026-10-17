@@ -1,3 +1,7 @@
+# v1.6.7
+
+2026-10-17: Home "Stop paying rent" lede reworded at Dave's request. "We do it the other way round." was unclear; it now reads "Stop paying and your site can go offline. Ours stay online with no plan at all, because the hosting is in your name." New styles-v1.6.7.css (identical to v1.6.6 apart from its header) and v1.6.7 build/check/build-test scripts; JS unchanged. Prior snapshots, code and assets are unchanged.
+
 # v1.6.6
 
 2026-10-17: Footer social links show the Facebook, Instagram, LinkedIn and YouTube logos instead of their names (Dave). Logos are inline SVG paths from Simple Icons (CC0) in the builder, white in 44px round buttons that turn yellow on hover/focus; each link keeps an accessible name ("Super Websites on Instagram") and a tooltip. A network without a logo falls back to its text name. New styles-v1.6.6.css (v1.6.5 plus the logo buttons) and v1.6.6 build/check/build-test scripts; the build test checks the labelled logo markup. JS unchanged. Prior snapshots, code and assets are unchanged.

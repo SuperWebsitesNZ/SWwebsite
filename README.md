@@ -1,6 +1,10 @@
-# Super Websites v1.6.6
+# Super Websites v1.6.7
 
-v1.6.6: footer social links are logos. Build/check/build-test entry points are v1.6.6.
+v1.6.7: home "Stop paying rent" lede reworded. Build/check/build-test entry points are v1.6.7.
+
+## Social logos — v1.6.6
+
+Footer social links are logos.
 
 ## SEO and AI search — v1.6.5
 
