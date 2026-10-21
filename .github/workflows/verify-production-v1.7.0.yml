@@ -26,6 +26,10 @@ jobs:
         run: npm run check
       - name: Run site tests
         run: npm test
+      - name: Install isolated Worker runtime test dependencies
+        run: npm ci --prefix workers/enquiries
+      - name: Test native Cloudflare request compatibility
+        run: npm run test:worker:runtime
       - name: Confirm domain, draft recipient, and indexing
         shell: bash
         run: |

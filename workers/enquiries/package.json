@@ -1,0 +1,12 @@
+{
+  "name": "sw-enquiries-runtime-tests",
+  "version": "1.7.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test-runtime-v1.7.3.mjs"
+  },
+  "devDependencies": {
+    "miniflare": "5.20261019.1-beta"
+  }
+}
