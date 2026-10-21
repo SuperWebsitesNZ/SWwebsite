@@ -1,12 +1,14 @@
-# Super Websites v1.7.3
+# Super Websites v1.7.4
 
-v1.6.9: The production enquiry form's mail-draft recipient is now `hello@superwebsites.co.nz`, the verified shared Zoho mailbox. The email remains hidden from the public footer (`showContactEmail:false`); no automatic submission is configured. The production test now checks the new recipient. All existing styling and older versions are preserved.
+The live contact form sends enquiries automatically to `hello@superwebsites.co.nz` through the verified Resend enquiry service v1.7.3. Patrick confirmed the labelled setup email arrived in Zoho and its Reply-To worked before activation. Each enquiry uses the visitor’s submitted email as Reply-To. Patrick and Dave reply from `patrick@superwebsites.co.nz` or `dave@superwebsites.co.nz` in Zoho. The test Gmail address is not a live form recipient.
 
-## Direct enquiry delivery — service v1.7.3
+## Direct enquiry delivery — site v1.7.4 / service v1.7.3
 
-Resend sending preparation is in `workers/enquiries/worker-v1.7.3.mjs`, with fixed destination, visitor Reply-To, an eight-second provider timeout and server-side validation/rate limiting. Deployment, secret setup and rollback: `workers/enquiries/SETUP-v1.7.3.md`. Use `npm run deploy:enquiries` for the separate Worker; keep the existing Cloudflare Pages deployment unchanged. The sender subdomain has been verified in Resend, and Worker/runtime key setup now passes health checks. The first real send returned 502, and v1.7.2 identified an immediate connection-stage exception. Native workerd reproduction found redirect:error is unsupported, so v1.7.3 uses manual mode while still rejecting redirects. A real inbox/reply test and live form activation remain pending.
+`site.config.json` sets `formEndpoint` to `https://enquiries.superwebsites.co.nz/api/enquiry` and `enquiryDeliveryVerified:true`. The frontend reports sending only after server acceptance and preserves a copyable project brief if sending fails. The CSP permits the enquiry origin. Build/check/build-test scripts and app are v1.7.4; styling remains v1.6.8.
 
-The old native Cloudflare v1.7.0 path is superseded: its onboarding proposed replacing apex mail records, which must remain with Zoho. Do not activate Cloudflare Email Routing on the apex. This release keeps `formEndpoint` blank and `enquiryDeliveryVerified:false` until a real email has arrived in Zoho. No credentials or private enquiry content are committed. Frontend builder/check/build-test scripts and app remain v1.7.0; styling remains v1.6.8. `npm test` now runs mocked Resend Worker v1.7.3 tests; no test sends real email.
+The separate Worker fixes the destination and authenticated sender, sets visitor Reply-To, validates inputs, rate limits, and times out provider requests after eight seconds. Deployment and runtime secret instructions: `workers/enquiries/SETUP-v1.7.3.md`. `npm run deploy:enquiries` deploys the Worker; Cloudflare Pages continues to use `npm run build:production` and `site-dist`. Secrets stay in runtime configuration. Apex mail records stay with Zoho; do not activate Cloudflare Email Routing there.
+
+Validation: `npm run build:production`, `npm run check`, `npm test`, and `npm run test:worker:runtime`. Offline tests never send real email. To restore the draft fallback, revert the v1.7.4 activation commit, including its configuration, build/test scripts and generated files. The shared Zoho address remains the draft recipient.
 
 ## Previous: v1.6.8
 

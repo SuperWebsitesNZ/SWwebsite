@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0",
+  "version": "1.7.4",
   "name": "Super Websites",
   "siteUrl": "https://superwebsites.co.nz/",
   "previewUrl": "https://superwebsitesnz.github.io/SWdemo1/",
@@ -35,7 +35,7 @@
       "url": "https://www.youtube.com/@SuperWebsitesnz"
     }
   ],
-  "formEndpoint": "",
+  "formEndpoint": "https://enquiries.superwebsites.co.nz/api/enquiry",
   "socialImage": "assets/social-wide-v1.0.jpg",
-  "enquiryDeliveryVerified": false
+  "enquiryDeliveryVerified": true
 }

@@ -1,6 +1,6 @@
-# Super Websites production validation v1.7.0
+# Super Websites production validation v1.7.4
 # Automatically verifies the production build used by Cloudflare Pages.
-name: Production build checks v1.7.0
+name: Production build checks v1.7.4
 
 on:
   push:
@@ -30,12 +30,14 @@ jobs:
         run: npm ci --prefix workers/enquiries
       - name: Test native Cloudflare request compatibility
         run: npm run test:worker:runtime
-      - name: Confirm domain, draft recipient, and indexing
+      - name: Confirm domain, sending endpoint, and indexing
         shell: bash
         run: |
           set -euo pipefail
           grep -Fq 'https://superwebsites.co.nz/' site-dist/index.html
-          grep -Fq 'hello@superwebsites.co.nz' site-dist/index.html
+          grep -Fq '"formEndpoint":"https://enquiries.superwebsites.co.nz/api/enquiry"' site-dist/index.html
+          grep -Fq 'Send enquiry' site-dist/index.html
+          grep -Fq "connect-src 'self' https://cloudflareinsights.com https://enquiries.superwebsites.co.nz" site-dist/_headers
           grep -Fq 'name="robots" content="index,follow"' site-dist/index.html
           grep -Fq 'https://superwebsites.co.nz/' site-dist/sitemap.xml
           test ! -d site-dist/versions
