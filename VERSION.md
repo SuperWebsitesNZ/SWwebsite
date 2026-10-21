@@ -1,3 +1,7 @@
+# v1.6.9
+
+2026-10-21: Production project-brief email-draft recipient changed from the temporary Gmail address to the tested shared Zoho mailbox `hello@superwebsites.co.nz`. Two individual mailboxes and the shared mailbox are already set up; only the site recipient changed. `showContactEmail:false` remains unchanged, so the address appears in the visitor's email draft but is not added to the footer or Organization schema. No server-side form endpoint was added; the visitor must send the draft. New v1.6.9 build/check/test scripts, versioned config/package and updated GitHub production workflow now verify the shared recipient (instead of the old Gmail). Styles, page content, existing production assets and older versions stay unchanged.
+
 # v1.6.8
 
 2026-10-17: Gmail address hidden from the public site (Dave, option 1). New site.config.json field `showContactEmail` (default true); set to false, the builder leaves the email out of the footer and the Organization schema. `contactEmail` stays configured because the enquiry form's "Open email draft" sends to it and production requires an email or a form endpoint, so the address is only seen by someone who opens the draft. The footer now shows the phone and service area. Build test covers hidden and shown modes. New styles-v1.6.8.css (identical to v1.6.6 apart from its header) and v1.6.8 build/check/build-test scripts; JS unchanged. Prior snapshots, code and assets are unchanged. Longer term: a domain address (e.g. hello@superwebsites.co.nz via Cloudflare Email Routing) can replace the Gmail.

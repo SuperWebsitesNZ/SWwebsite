@@ -1,4 +1,8 @@
-# Super Websites v1.6.8
+# Super Websites v1.6.9
+
+v1.6.9: The production enquiry form's mail-draft recipient is now `hello@superwebsites.co.nz`, the verified shared Zoho mailbox. The email remains hidden from the public footer (`showContactEmail:false`); no automatic submission is configured. The production test now checks the new recipient. All existing styling and older versions are preserved.
+
+## Previous: v1.6.8
 
 v1.6.8: `showContactEmail: false` hides the enquiry email from the footer and schema; the email-draft form still uses `contactEmail`. Build/check/build-test entry points are v1.6.8.
 
