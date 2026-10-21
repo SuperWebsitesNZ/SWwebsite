@@ -1,6 +1,6 @@
-# Super Websites production validation v1.6.9
+# Super Websites production validation v1.7.0
 # Automatically verifies the production build used by Cloudflare Pages.
-name: Production build checks v1.6.9
+name: Production build checks v1.7.0
 
 on:
   push:

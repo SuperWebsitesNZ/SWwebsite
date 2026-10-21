@@ -1,6 +1,10 @@
-# Super Websites v1.6.9
+# Super Websites v1.7.0
 
 v1.6.9: The production enquiry form's mail-draft recipient is now `hello@superwebsites.co.nz`, the verified shared Zoho mailbox. The email remains hidden from the public footer (`showContactEmail:false`); no automatic submission is configured. The production test now checks the new recipient. All existing styling and older versions are preserved.
+
+## Direct enquiry delivery — v1.7.0
+
+Native Cloudflare sending preparation is in `workers/enquiries/worker-v1.7.0.mjs`, with restricted destination, visitor Reply-To and server-side validation/rate limiting. Setup and rollback: `workers/enquiries/SETUP-v1.7.0.md`. This release deliberately keeps `formEndpoint` blank and `enquiryDeliveryVerified:false` until a real email has arrived in Zoho. No Cloudflare credentials or private enquiry content are committed. Current builder/check/build-test scripts and app are v1.7.0; styling remains v1.6.8. `npm test` includes the new mocked Worker tests; no test sends real email. Cloudflare account setup must preserve the apex Zoho records.
 
 ## Previous: v1.6.8
 
