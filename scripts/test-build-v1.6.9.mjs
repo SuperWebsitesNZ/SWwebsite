@@ -41,8 +41,8 @@ try {
   assert(!home.includes('version-links'));
   // v1.6.9: The actual production build uses the shared address; do not leak the old Gmail recipient.
   const deployedDraft=read('site-dist/index.html');
-  assert.match(deployedDraft,/"contactEmail":"hello@superwebsites\\.co\\.nz"/);
-  assert.doesNotMatch(deployedDraft,/superwebsites111@gmail\\.com/);
+  assert(deployedDraft.includes('"contactEmail":"hello@superwebsites.co.nz"'), 'Production output must use the shared Zoho enquiry address.');
+  assert(!deployedDraft.includes('superwebsites111@gmail.com'), 'Production output must not use the retired Gmail recipient.');
   // v1.6.5: social profiles render in the footer and as Organization sameAs.
   assert.match(home,/class="footer-social"[^]*?href="https:\/\/www\.instagram\.com\/superwebsites\/" rel="me noopener"/);
   // v1.6.9: the live config hides the email (showContactEmail:false); it stays out of the footer and schema but still drives the email-draft form.
