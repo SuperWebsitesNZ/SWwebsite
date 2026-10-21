@@ -1,14 +1,14 @@
 {
   "name": "super-websites",
-  "version": "1.6.9",
+  "version": "1.7.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-site-v1.6.9.mjs --mode preview --out site-dist",
-    "build:preview": "node scripts/build-site-v1.6.9.mjs --mode preview --out .",
-    "build:production": "node scripts/build-site-v1.6.9.mjs --mode production --out site-dist",
-    "check": "node scripts/check-site-v1.6.9.mjs site-dist",
-    "test": "node scripts/test-cost-animation-v1.5.1.mjs && node scripts/test-enquiry-v1.5.1.mjs && node scripts/test-build-v1.6.9.mjs"
+    "build": "node scripts/build-site-v1.7.0.mjs --mode preview --out site-dist",
+    "build:preview": "node scripts/build-site-v1.7.0.mjs --mode preview --out .",
+    "build:production": "node scripts/build-site-v1.7.0.mjs --mode production --out site-dist",
+    "check": "node scripts/check-site-v1.7.0.mjs site-dist",
+    "test": "node scripts/test-cost-animation-v1.5.1.mjs && node scripts/test-enquiry-v1.5.1.mjs && node scripts/test-build-v1.7.0.mjs && node scripts/test-enquiry-worker-v1.7.0.mjs"
   },
   "engines": {
     "node": ">=20"
