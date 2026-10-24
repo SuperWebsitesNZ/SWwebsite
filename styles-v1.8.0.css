@@ -529,3 +529,4 @@ body:has(dialog[open]) .back-to-top,body:has(.nav-links.open) .back-to-top{visib
 .calc-summary{grid-column:1/-1;margin:4px 0 0;font-weight:600}
 .cost-calc .fine{margin:14px 0}
 @media(max-width:600px){.cost-calc{padding:14px}.calc-results{grid-template-columns:1fr}.calc-option,.calc-number{flex-wrap:wrap}.calc-number input{width:100%}}
+.calc-note{margin:0 0 10px;font-size:15px;color:var(--muted)}
