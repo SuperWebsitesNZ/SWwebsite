@@ -1,4 +1,8 @@
-# Super Websites v1.7.4
+# Super Websites v1.8.0
+
+v1.8.0: Cromwell and Wānaka pages, a cost calculator on /website-cost-nz/ (page-level `scripts` in content/pages.json), and four blog posts on GEO and running costs. Build/check/build-test entry points are v1.8.0.
+
+## Contact form — v1.7.4
 
 The live contact form sends enquiries automatically to `hello@superwebsites.co.nz` through the verified Resend enquiry service v1.7.3. Patrick confirmed the labelled setup email arrived in Zoho and its Reply-To worked before activation. Each enquiry uses the visitor’s submitted email as Reply-To. Patrick and Dave reply from `patrick@superwebsites.co.nz` or `dave@superwebsites.co.nz` in Zoho. The test Gmail address is not a live form recipient.
 

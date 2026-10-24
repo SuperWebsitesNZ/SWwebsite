@@ -1,14 +1,14 @@
 {
   "name": "super-websites",
-  "version": "1.7.4",
+  "version": "1.8.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-site-v1.7.4.mjs --mode preview --out site-dist",
-    "build:preview": "node scripts/build-site-v1.7.4.mjs --mode preview --out .",
-    "build:production": "node scripts/build-site-v1.7.4.mjs --mode production --out site-dist",
-    "check": "node scripts/check-site-v1.7.4.mjs site-dist",
-    "test": "node scripts/test-cost-animation-v1.5.1.mjs && node scripts/test-enquiry-v1.5.1.mjs && node scripts/test-build-v1.7.4.mjs && node scripts/test-enquiry-worker-v1.7.3.mjs",
+    "build": "node scripts/build-site-v1.8.0.mjs --mode preview --out site-dist",
+    "build:preview": "node scripts/build-site-v1.8.0.mjs --mode preview --out .",
+    "build:production": "node scripts/build-site-v1.8.0.mjs --mode production --out site-dist",
+    "check": "node scripts/check-site-v1.8.0.mjs site-dist",
+    "test": "node scripts/test-cost-animation-v1.5.1.mjs && node scripts/test-enquiry-v1.5.1.mjs && node scripts/test-build-v1.8.0.mjs && node scripts/test-cost-calculator-v1.8.0.mjs && node scripts/test-enquiry-worker-v1.7.3.mjs",
     "deploy:enquiries": "npx --yes wrangler@4.151.3 deploy --config workers/enquiries/wrangler-v1.7.3.jsonc",
     "test:worker:runtime": "npm --prefix workers/enquiries test"
   },

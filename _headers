@@ -3,10 +3,10 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: DENY
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://static.cloudflareinsights.com 'sha256-yiXmzM04UnBogT6+EpzMy2FlUPYoycbU3X3IMikgXTg=' 'sha256-lIjLDBleK5RmU1m6oZmq1joASaGWiEyqul2VxTyYh5Y=' 'sha256-4QfeW0TvR50xgtYwTTEkkdUv5Cha/LItPfaahXVwgP8=' 'sha256-x9cUV5Fo38tCfFSXK1eNaSSguHyJ3QNN73dUX6CZzi0=' 'sha256-2qM5+aFLyzEweoxmJgmwJagqd/Tjf+Z0VQOVF/1jzYI=' 'sha256-kkbwFvtxpHzM7VGu24wZAoHyAGyeiLN6K3q4YaAtwU0=' 'sha256-mO9HY6JZZ4nldnwGUxH/d++0n0oVg/8cbLimD4mgSxM=' 'sha256-mmlx6Do/+MPEdacmcpCCzoxoE9nAifiA0LgNND2yn6g=' 'sha256-k6TCQskPIMpLgqyIshocPvsKEp63KdIXgnfE2dJqa+0=' 'sha256-hOPU6HqSHFn2lL1vIbD5cgDJUhrR27W1rSXQ527eiqc=' 'sha256-0YKC9BHkWwG/ckBzt19xYbWD4WyeWH2WwX8boq1EGEc=' 'sha256-gWmSzLv4mwfC3O3Cmd5L+t3V/KyEzG2SVmaUCCxMWmc=' 'sha256-rMadRCajAXE2cYGKgLLoQVVvQLldziC9+TvEUlW9t98=' 'sha256-FRz68MkmKHDdzH7kWNSjZABEsmtF4Zk8XriPnVfmjaQ=' 'sha256-ls8d/72Dq1LJeZ55C6q1j7qQpou0RoWcvDxu4KYsenw='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com https://enquiries.superwebsites.co.nz; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://static.cloudflareinsights.com 'sha256-yiXmzM04UnBogT6+EpzMy2FlUPYoycbU3X3IMikgXTg=' 'sha256-lIjLDBleK5RmU1m6oZmq1joASaGWiEyqul2VxTyYh5Y=' 'sha256-VHk5Ay0XyVPq22y1NYF5fwHbzd7XljIfKgUOEfi0+gs=' 'sha256-oXezGBsWKefmIYHos33F74weFcc7xTPmQM9vDzxzqZo=' 'sha256-2qM5+aFLyzEweoxmJgmwJagqd/Tjf+Z0VQOVF/1jzYI=' 'sha256-kkbwFvtxpHzM7VGu24wZAoHyAGyeiLN6K3q4YaAtwU0=' 'sha256-Sc3BxT1OCEz6xg3TiZ7EsI6Znq/o7/UuX1QAdp0sHG8=' 'sha256-mmlx6Do/+MPEdacmcpCCzoxoE9nAifiA0LgNND2yn6g=' 'sha256-k6TCQskPIMpLgqyIshocPvsKEp63KdIXgnfE2dJqa+0=' 'sha256-APXROB2BENLP4bruxRobNVQ+3JPs9LNmqZIHq34M74Y=' 'sha256-YYfTJDrQPKF4L1b+bsv4OvqmZ+GPyvd+5eUcdHgrDuA=' 'sha256-hOPU6HqSHFn2lL1vIbD5cgDJUhrR27W1rSXQ527eiqc=' 'sha256-0YKC9BHkWwG/ckBzt19xYbWD4WyeWH2WwX8boq1EGEc=' 'sha256-gWmSzLv4mwfC3O3Cmd5L+t3V/KyEzG2SVmaUCCxMWmc=' 'sha256-rMadRCajAXE2cYGKgLLoQVVvQLldziC9+TvEUlW9t98=' 'sha256-FRz68MkmKHDdzH7kWNSjZABEsmtF4Zk8XriPnVfmjaQ=' 'sha256-ZMquPquxQS/PWE1tJvfsXNTN/ODpBMrXvJol5YuzDDQ=' 'sha256-xJgpMR7jnCcqzG93U63he0KMvmzvNzsi9C/8FrAIvNs=' 'sha256-xOWlauMHwIh6b3BagqOaWyVLR4z2oxP4T9msNftoNv0=' 'sha256-v1ouL42hg7EP8BMJKMqnhwqOeYQ9zMjctiRZhdV1ojA=' 'sha256-ls8d/72Dq1LJeZ55C6q1j7qQpou0RoWcvDxu4KYsenw='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com https://enquiries.superwebsites.co.nz; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
-/styles-v1.6.8.css
+/styles-v1.8.0.css
   Cache-Control: public, max-age=31536000, immutable
 /app-v1.7.4.js
   Cache-Control: public, max-age=31536000, immutable
@@ -15,4 +15,6 @@
 /cost-animation-v1.5.1.js
   Cache-Control: public, max-age=31536000, immutable
 /back-to-top-v1.5.8.js
+  Cache-Control: public, max-age=31536000, immutable
+/cost-calculator-v1.8.0.js
   Cache-Control: public, max-age=31536000, immutable

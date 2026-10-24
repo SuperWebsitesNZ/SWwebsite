@@ -10,6 +10,42 @@
     "bodyFile": "src/posts/small-website-big-job-v1.5.1.html"
   },
   {
+    "slug": "what-is-geo",
+    "title": "What is GEO? Generative engine optimisation for NZ businesses",
+    "description": "A plain-English guide to generative engine optimisation (GEO) for NZ small businesses: what it is, how it differs from SEO, and what actually helps.",
+    "date": "2026-10-24",
+    "author": "Super Websites",
+    "published": true,
+    "bodyFile": "src/posts/what-is-geo-v1.8.0.html"
+  },
+  {
+    "slug": "get-mentioned-by-chatgpt-nz",
+    "title": "How to get your business mentioned by ChatGPT (NZ guide)",
+    "description": "How ChatGPT finds local businesses, and seven practical steps NZ small businesses can take to give themselves a fair chance of being recommended.",
+    "date": "2026-10-24",
+    "author": "Super Websites",
+    "published": true,
+    "bodyFile": "src/posts/get-mentioned-by-chatgpt-nz-v1.8.0.html"
+  },
+  {
+    "slug": "google-ai-overviews-small-business",
+    "title": "Google AI Overviews: what they mean for your small business",
+    "description": "What Google's AI Overviews are, whether they cost you visitors, and what Google says helps your small business website get linked from them.",
+    "date": "2026-10-24",
+    "author": "Super Websites",
+    "published": true,
+    "bodyFile": "src/posts/google-ai-overviews-small-business-v1.8.0.html"
+  },
+  {
+    "slug": "website-running-costs-nz",
+    "title": "What does a website cost to run each month in NZ?",
+    "description": "The monthly costs of running a small business website in NZ: domains, hosting, builder plans and care plans, and which of them you can avoid.",
+    "date": "2026-10-24",
+    "author": "Super Websites",
+    "published": true,
+    "bodyFile": "src/posts/website-running-costs-nz-v1.8.0.html"
+  },
+  {
     "title": "What should go on your homepage?",
     "description": "Help visitors understand your business and find their next step.",
     "published": false,

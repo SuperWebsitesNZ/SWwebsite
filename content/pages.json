@@ -21,13 +21,16 @@
     "slug": "website-cost-nz",
     "navLabel": "Website costs",
     "footerLabel": "Website costs in NZ",
-    "title": "Website Cost NZ: 2026 Price Guide | Super Websites",
-    "description": "What a small business website costs in New Zealand in 2026: typical build prices, the ongoing costs people miss, and our fixed prices from NZ$1,500 + GST.",
+    "title": "Website Cost NZ: 2026 Prices & Calculator | Super Websites",
+    "description": "What a small business website costs in NZ in 2026: typical prices, the ongoing costs people miss, and a calculator to price your own site from NZ$1,500 + GST.",
     "heading": "How much does a website cost in NZ?",
     "published": true,
     "nav": false,
     "footer": true,
-    "bodyFile": "src/pages/website-cost-nz-v1.6.5.html"
+    "bodyFile": "src/pages/website-cost-nz-v1.8.0.html",
+    "scripts": [
+      "cost-calculator-v1.8.0.js"
+    ]
   },
   {
     "slug": "website-design-central-otago",
@@ -39,7 +42,7 @@
     "published": true,
     "nav": false,
     "footer": true,
-    "bodyFile": "src/pages/website-design-central-otago-v1.6.5.html"
+    "bodyFile": "src/pages/website-design-central-otago-v1.8.0.html"
   },
   {
     "slug": "website-design-queenstown",
@@ -52,6 +55,30 @@
     "nav": false,
     "footer": true,
     "bodyFile": "src/pages/website-design-queenstown-v1.6.0.html"
+  },
+  {
+    "slug": "website-design-cromwell",
+    "navLabel": "Cromwell",
+    "footerLabel": "Websites in Cromwell",
+    "title": "Website Design Cromwell | Super Websites",
+    "description": "Websites for Cromwell businesses from a Cromwell-based team. One price, we write the words, no monthly fees, and we'll meet you in person. From NZ$1,500 + GST.",
+    "heading": "Websites for Cromwell businesses.",
+    "published": true,
+    "nav": false,
+    "footer": true,
+    "bodyFile": "src/pages/website-design-cromwell-v1.8.0.html"
+  },
+  {
+    "slug": "website-design-wanaka",
+    "navLabel": "Wānaka",
+    "footerLabel": "Websites in Wānaka",
+    "title": "Website Design Wānaka | Super Websites",
+    "description": "Websites for Wānaka businesses, built for summer and ski season. Phone-first, bookings ready, copy written for you and no monthly fees. From NZ$1,500 + GST.",
+    "heading": "Websites for Wānaka businesses.",
+    "published": true,
+    "nav": false,
+    "footer": true,
+    "bodyFile": "src/pages/website-design-wanaka-v1.8.0.html"
   },
   {
     "slug": "websites-with-no-monthly-fees",
