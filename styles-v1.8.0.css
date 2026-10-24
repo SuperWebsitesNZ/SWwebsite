@@ -530,3 +530,15 @@ body:has(dialog[open]) .back-to-top,body:has(.nav-links.open) .back-to-top{visib
 .cost-calc .fine{margin:14px 0}
 @media(max-width:600px){.cost-calc{padding:14px}.calc-results{grid-template-columns:1fr}.calc-option,.calc-number{flex-wrap:wrap}.calc-number input{width:100%}}
 .calc-note{margin:0 0 10px;font-size:15px;color:var(--muted)}
+/* v1.8.0: home optional extras as a click-to-open list without prices (Dave) */
+details.addons > summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+details.addons > summary::-webkit-details-marker{display:none}
+.addons-toggle{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:16px;color:var(--purple-ink)}
+.addons-toggle::after{content:"+";font:800 30px/1 var(--display);color:var(--purple)}
+details.addons[open] .addons-toggle::after{content:"–"}
+details.addons[open] .addons-toggle{font-size:0;gap:0}
+ul.addon-list{list-style:none;padding:0}
+ul.addon-list > li{display:flex;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid #24123a26;font-size:16px;font-weight:600;line-height:1.4}
+ul.addon-list > li::before{content:"";flex:none;width:10px;height:10px;background:var(--yellow);border:2px solid var(--plum);transform:rotate(45deg)}
+ul.addon-list > li:nth-last-child(-n+2){border-bottom:0}
+@media(max-width:700px){ul.addon-list > li:nth-last-child(2){border-bottom:1px solid #24123a26}ul.addon-list > li{font-size:15px}}
